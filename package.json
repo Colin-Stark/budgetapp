@@ -1,0 +1,30 @@
+{
+  "name": "budgetapp",
+  "version": "1.0.0",
+  "description": "A simple backend mongoDB schema project",
+  "keywords": [
+    "MongoDB",
+    "JavaScript",
+    "NodeJS"
+  ],
+  "homepage": "https://github.com/Colin-Stark/budgetapp#readme",
+  "bugs": {
+    "url": "https://github.com/Colin-Stark/budgetapp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Colin-Stark/budgetapp.git"
+  },
+  "license": "ISC",
+  "author": "Collins Olokpedje",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "mongoose": "^8.14.0"
+  }
+}
